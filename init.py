@@ -63,8 +63,8 @@ def sendResponse(res):
 
 if __name__ == '__main__':
 
-    schedule.every().day.at('03:00').do(morningReminder)
-    schedule.every().day.at('15:30').do(nightReminder)
+    schedule.every().day.at('16:00').do(morningReminder)
+    schedule.every().day.at('04:30').do(nightReminder)
     
     while(True):
 
