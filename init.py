@@ -55,7 +55,7 @@ def nightReminder():
 def sendResponse(res):
 
     token = os.environ.get('token')
-    bot_id = '1051998475'
+    bot_id = '6047169723'
     send_text = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=' + bot_id + '&parse_mode=Markdown&text=' + res
 
     response = requests.get(send_text)
